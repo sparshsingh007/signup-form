@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Signup form project">
+  <title>Signup Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header>
+  <h1>Create Your Account</h1>
+</header>
+
+<main>
+  <form id="signupForm">
+
+    <label>Email</label>
+    <input type="email" id="email" required>
+
+    <label>Password</label>
+    <input type="password" id="password" required>
+
+    <label>Confirm Password</label>
+    <input type="password" id="confirmPassword" required>
+
+    <label>Date of Birth</label>
+    <input type="date" required>
+
+    <p>Gender</p>
+    <label>
+      <input type="radio" name="gender" required> Male
+    </label>
+
+    <label>
+      <input type="radio" name="gender"> Female
+    </label>
+
+    <label>
+      <input type="checkbox" required> I agree to terms
+    </label>
+
+    <button type="submit">Sign Up</button>
+
+    <p id="message"></p>
+
+  </form>
+</main>
+
+<footer>
+  <p>© 2026 Signup Form Project</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
